@@ -1,0 +1,6 @@
+{
+  "name": "RoadGuard AI",
+  "description": "Intelligent Road Damage Detection & Maintenance Prioritization Platform",
+  "requestFramePermissions": ["GEOLOCATION"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
