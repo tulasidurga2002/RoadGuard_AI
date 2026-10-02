@@ -1,7 +1,7 @@
-# RoadGuard AI - Compatibility & Build Requirements
+# RoadGuard AI - Production & Render Runtime Dependencies
 # ----------------------------------------------------
-# The RoadGuard AI full-stack web application runs on Node.js (server.ts & Vite React).
-#
-# For offline YOLOv8/YOLOv11 road damage detection and vision model training,
-# Python dependencies are located in: ml/requirements.txt
-# (To install ML pipeline: pip install -r ml/requirements.txt)
+# Enables Gunicorn WSGI process management and proxying on Render
+gunicorn>=21.2.0
+
+# Note: YOLOv8/v11 offline ML training dependencies are located in ml/requirements.txt
+# (To train or run offline ML vision pipeline: pip install -r ml/requirements.txt)
